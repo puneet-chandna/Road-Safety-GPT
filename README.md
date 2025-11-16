@@ -1,56 +1,91 @@
-# Road Safety Expert System
+# Road Safety Expert System - Frontend
 
-A full-stack application that provides road safety intervention recommendations using AI and official guidelines.
+AI-powered road safety intervention recommendation system built with React and Vite.
+
+## Quick Start
+
+### 1. Install Dependencies
+
+```bash
+npm install
+```
+
+### 2. Set Up Environment Variables
+
+Copy `.env.example` to `.env` and add your Gemini API key:
+
+```bash
+cp .env.example .env
+```
+
+Edit `.env` and add your key:
+
+```
+GEMINI_API_KEY=your_actual_api_key_here
+```
+
+### 3. Run Development Server
+
+```bash
+npm run dev
+```
+
+This will start:
+- Vite dev server on http://localhost:5173 (frontend)
+- Express API server on http://localhost:3001 (backend for local dev)
+
+Visit http://localhost:5173 in your browser
+
 
 ## Project Structure
 
 ```
-Road-Safety-GPT/
-├── frontend/              # Main application 
-│   ├── api/              # Serverless API functions
-│   ├── src/              # React application
-│   ├── road_safety_interventions.csv
-│   └── vercel.json       # Vercel configuration
-└── README.md
+frontend/
+├── api/                  # Vercel serverless functions
+│   └── generate-report.js
+├── src/                  # React application
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── road_safety_interventions.csv  # Database
+└── vercel.json          # Vercel configuration
 ```
-
-## Quick Start
-
-### Local Development
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-
 
 ## Features
 
-- AI-powered road safety analysis using Google Gemini
+- AI-powered analysis using Google Gemini
 - CSV-based intervention database
-- React frontend with Vite
-- Serverless API on Vercel
 - PDF report generation
 - QR code sharing
+- Responsive design with TailwindCSS
+- Serverless API on Vercel
 
 ## Tech Stack
 
-- **Frontend**: React, Vite, TailwindCSS
-- **Backend**: Vercel Serverless Functions
-- **AI**: Google Gemini API
-- **Database**: CSV file with road safety interventions
+- React 18
+- Vite
+- TailwindCSS
+- Google Gemini AI
+- Vercel Serverless Functions
+- React Router DOM
+- QR Code generation
 
-## Environment Variables
+## Development
 
-Create a `.env` file in the `frontend` directory:
+The app uses Vite for fast development and hot module replacement. 
 
+**Local Development:**
+- `npm run dev` runs both Vite (port 5173) and a local Express server (port 3001)
+- The Express server (`server-dev.js`) mimics the Vercel serverless function for local testing
+
+**Production (Vercel):**
+- API routes are handled by Vercel serverless functions in the `api/` directory
+- No Express server needed - Vercel handles everything
+
+## Building for Production
+
+```bash
+npm run build
 ```
-GEMINI_API_KEY=your_gemini_api_key_here
-```
 
-## License
-
-MIT
-
+This creates an optimized production build in the `dist/` directory.
