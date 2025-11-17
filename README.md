@@ -24,7 +24,6 @@
   <a href="#-features">Features</a> •
   <a href="#-quick-start">Quick Start</a> •
   <a href="#-demo">Demo</a> •
-  <a href="#-documentation">Docs</a> •
   <a href="#-contributing">Contributing</a>
 </h3>
 
@@ -130,18 +129,18 @@ graph LR
 
 ```bash
 Node.js 18.x or higher
-npm or yarn
-Google Gemini API Key (Get one free at https://makersuite.google.com/app/apikey)
+npm 
+Google Gemini API Key (Get one free at https://aistudio.google.com/app/api-keys)
 ```
 
 ### 🔧 Installation
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/yourusername/road-safety-expert-system.git
+git clone https://github.com/puneet-chandna/Road-Safety-GPT
 
 # 2️⃣ Navigate to frontend directory
-cd road-safety-expert-system/frontend
+cd Road-Safety-GPT/frontend
 
 # 3️⃣ Install dependencies
 npm install
@@ -162,37 +161,12 @@ npm run dev
 
 <br/>
 
-## 🎨 Demo
 
-<div align="center">
 
-### 🏠 Home Page
-*Clean, modern interface with sample scenarios*
+## 🎥 Demo Video
 
-<img src="https://via.placeholder.com/800x400/1a1a1a/ffffff?text=Home+Page+Screenshot" alt="Home Page" width="80%" />
+[![Demo Video](demo-thumbnail.png)](https://drive.google.com/file/d/1Y-rHEGRNNdJC4jS4o9WPJmk4zbg9RZqk/view?usp=sharing)
 
----
-
-### 📝 Analysis Input
-*Intuitive form for describing road safety issues*
-
-<img src="https://via.placeholder.com/800x400/2196F3/ffffff?text=Input+Form+Screenshot" alt="Input Form" width="80%" />
-
----
-
-### 📊 Generated Report
-*Professional report with official guidelines*
-
-<img src="https://via.placeholder.com/800x400/4CAF50/ffffff?text=Report+Display+Screenshot" alt="Report Display" width="80%" />
-
----
-
-### 🔗 Share Modal
-*Easy sharing via link or QR code*
-
-<img src="https://via.placeholder.com/800x400/9C27B0/ffffff?text=Share+Modal+Screenshot" alt="Share Modal" width="80%" />
-
-</div>
 
 <br/>
 
@@ -345,7 +319,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 <div align="center">
 
-**🔑 Get your free API key:** [Google AI Studio](https://makersuite.google.com/app/apikey)
+**🔑 Get your free API key:** [Google AI Studio](https://aistudio.google.com/app/api-keys)
 
 </div>
 
@@ -508,20 +482,7 @@ npm run dev
 
 <br/>
 
-## 📚 Documentation
 
-<div align="center">
-
-| Document | Description |
-|:--------:|-------------|
-| [DEPLOYMENT.md](frontend/DEPLOYMENT.md) | Complete deployment guide |
-| [VERCEL_ROUTING_FIX.md](frontend/VERCEL_ROUTING_FIX.md) | Client-side routing setup |
-| [LOCAL_DEV_NOTES.md](frontend/LOCAL_DEV_NOTES.md) | Development tips & tricks |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines |
-
-</div>
-
-<br/>
 
 ## 🤝 Contributing
 
@@ -556,8 +517,8 @@ all contributions are welcome and appreciated.
 
 If this project helped you, please consider giving it a ⭐!
 
-<a href="https://github.com/yourusername/road-safety-expert-system/stargazers">
-  <img src="https://img.shields.io/github/stars/yourusername/road-safety-expert-system?style=social" alt="Stars" />
+<a href="https://github.com/puneet-chandna/Road-Safety-GPT/stargazers">
+  <img src="https://img.shields.io/github/stars/puneet-chandna/Road-Safety-GPT?style=social" alt="Stars" />
 </a>
 
 </div>
@@ -631,21 +592,21 @@ See [LICENSE](LICENSE) file for details
 <table>
 <tr>
 <td align="center">
-<a href="https://github.com/yourusername/road-safety-expert-system/issues">
+<a href="https://github.com/puneet-chandna/Road-Safety-GPT/issues">
 <img src="https://img.icons8.com/fluency/48/000000/bug.png" width="40" height="40" alt="Issues" />
 <br/>
 <b>Report Bug</b>
 </a>
 </td>
 <td align="center">
-<a href="https://github.com/yourusername/road-safety-expert-system/issues">
+<a href="https://github.com/puneet-chandna/Road-Safety-GPT/issues">
 <img src="https://img.icons8.com/fluency/48/000000/light-on.png" width="40" height="40" alt="Feature" />
 <br/>
 <b>Request Feature</b>
 </a>
 </td>
 <td align="center">
-<a href="https://github.com/yourusername/road-safety-expert-system/discussions">
+<a href="https://github.com/puneet-chandna/Road-Safety-GPT/discussions">
 <img src="https://img.icons8.com/fluency/48/000000/chat.png" width="40" height="40" alt="Discussions" />
 <br/>
 <b>Discussions</b>
@@ -672,7 +633,7 @@ See [LICENSE](LICENSE) file for details
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Automobile.png" alt="Car" width="30" />
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Police%20Car%20Light.png" alt="Police Light" width="30" />
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Traffic%20Light.png" alt="Traffic Light" width="30" />
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Vertical%20Traffic%20Light.png" alt="Vertical Traffic Light" width="25" height="25" />
 
 <br/>
 
